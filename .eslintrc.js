@@ -13,5 +13,6 @@ module.exports = {
   plugins: ['jest'],
   rules: {
     'import/prefer-default-export': 'off',
+    'comma-dangle': 'off',
   },
 };

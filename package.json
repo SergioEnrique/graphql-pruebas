@@ -1,10 +1,10 @@
 {
-  "name": "empty-project-node",
+  "name": "graphql-pruebas",
   "version": "1.0.0",
   "description": "Empty project for Node.js",
   "main": "src/index.js",
   "scripts": {
-    "start": "nodemon src/index.js --exec babel-node --presets babel-preset-env",
+    "start": "nodemon src/serverMutations.js --exec babel-node --presets babel-preset-env",
     "test": "jest --watchAll",
     "lint": "eslint src --ext .js"
   },
@@ -29,5 +29,11 @@
     "nodemon": "^2.0.20",
     "prettier": "^2.8.4",
     "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.3.0"
   }
 }
