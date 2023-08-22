@@ -1,10 +1,12 @@
 {
   "name": "graphql-pruebas",
   "version": "1.0.0",
-  "description": "Empty project for Node.js",
+  "description": "Graphql study workspace",
   "main": "src/index.js",
   "scripts": {
-    "start": "nodemon src/serverMutations.js --exec babel-node --presets babel-preset-env",
+    "start:queries": "nodemon src/serverQueries.js --exec babel-node --presets babel-preset-env",
+    "start:mutations": "nodemon src/serverMutations.js --exec babel-node --presets babel-preset-env",
+    "start:types": "nodemon src/serverTypes.js --exec babel-node --presets babel-preset-env",
     "test": "jest --watchAll",
     "lint": "eslint src --ext .js"
   },
